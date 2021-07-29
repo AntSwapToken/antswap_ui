@@ -58,4 +58,10 @@ export default {
     97: '',
     137: '0x7f06185200a9BbFbaaDFDAC0DFbA7ac4e0Ba1494' // ant
   }
+  ,
+  wmatic: {
+    56: '',
+    97: '',
+    137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' // WMATIC
+  },
 }

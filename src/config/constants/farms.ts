@@ -154,8 +154,8 @@ const farms: FarmConfig[] = [
      56: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
      137: '0x4cebdbcb286101a17d3ea1f7fe7bbded2b2053dd', // YLD
    },
-   quoteTokenSymbol: QuoteToken.BNB,
-   quoteTokenAdresses: contracts.wbnb,
+   quoteTokenSymbol: QuoteToken.BUSD,
+   quoteTokenAdresses: contracts.busd,
    tokenDecimals: 18,
  },
  {
@@ -214,7 +214,7 @@ const farms: FarmConfig[] = [
      137: '0xc2132d05d31c914a87c6611c10748aeb04b58e8f', // USDT
    },
    quoteTokenSymbol: QuoteToken.BUSD,
-   quoteTokenAdresses: contracts.busd,
+   quoteTokenAdresses: contracts.usdc,
  },
  {
    pid: 10,
@@ -232,7 +232,7 @@ const farms: FarmConfig[] = [
      137: '0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6', // WBTC
    },
    quoteTokenSymbol: QuoteToken.BUSD,
-   quoteTokenAdresses: contracts.busd,
+   quoteTokenAdresses: contracts.usdc,
  },
  {
    pid: 11,
@@ -249,8 +249,8 @@ const farms: FarmConfig[] = [
      56: '',
      137: '0x831753dd7087cac61ab5644b308642cc1c33dc13', // Quick
    },
-   quoteTokenSymbol: QuoteToken.BNB,
-   quoteTokenAdresses: contracts.wbnb,
+   quoteTokenSymbol: QuoteToken.BUSD,
+   quoteTokenAdresses: contracts.busd,
  },
  {
   pid: 12,
@@ -282,14 +282,14 @@ const farms: FarmConfig[] = [
      56: '',  
      137: '0x0cd1d499f9106b8dd49d54aae89c7b3bfbc417bb', // ANT-LAD
    },
-   tokenSymbol: 'LAD',
+   tokenSymbol: 'ANT',
    tokenAddresses: {
      97: '',
      56: '',
-     137: '0x831753dd7087cac61ab5644b308642cc1c33dc13', // LAD
+     137: '0x8465d41d66ce05bde12fd3320f260e01aa4ced3f', // LAD
    },
-   quoteTokenSymbol: QuoteToken.ANT,
-   quoteTokenAdresses: contracts.ant,
+   quoteTokenSymbol: QuoteToken.LAD,
+   quoteTokenAdresses: contracts.busd,
    tokenDecimals: 18,
  }
 
