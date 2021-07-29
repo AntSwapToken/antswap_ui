@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, Flex } from '@gameswapfinance/uikit'
+import { Heading, Text, Flex } from 'antswap-uikit'
 
 interface IfoCardHeaderProps {
   ifoId: string

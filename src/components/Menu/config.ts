@@ -1,4 +1,4 @@
-import { MenuEntry } from '@gameswapfinance/uikit'
+import { MenuEntry } from 'antswap-uikit'
 
 
 const config: MenuEntry[] = [
@@ -63,6 +63,26 @@ const config: MenuEntry[] = [
         href: 'https://medium.com/@antswaptoken',
       }
     ],
+  },
+  {
+    label: "Telegram",
+    icon: "TelegramIcon",
+    items: [
+              {
+                  label: "English",
+                  href: "https://t.me/AntSwapToken",
+              },
+              
+              {
+                  label: "Announcements",
+                  href: "https://t.me/AntSwapToken",
+              },
+           ],
+  },
+  {
+        label: "Twitter",
+        icon: "TwitterIcon",
+        href: "https://twitter.com/RebalanceT",
   },
 ]
 
