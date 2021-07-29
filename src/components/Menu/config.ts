@@ -41,15 +41,23 @@ const config: MenuEntry[] = [
     icon: 'TicketIcon',
     href: '/profit',
   },
-  // {
-  //   label: 'NFT',
-  //   icon: 'NftIcon',
-  //   href: '/nft',
-  // },
   {
-    label: 'Info',
+    label: 'Charts',
     icon: 'InfoIcon',
     items: [
+      {
+          label: "Dex Guru Charts",
+          href: "https://dex.guru/token/0x7f06185200a9bbfbaadfdac0dfba7ac4e0ba1494-polygon",
+      },
+      
+      {
+          label: "Poo Coin Charts",
+          href: "https://polygon.poocoin.app/tokens/0x7f06185200a9bbfbaadfdac0dfba7ac4e0ba1494",
+      },
+      {
+          label: "SlingShot Charts",
+          href: "https://app.slingshot.finance/trade/m/0x7f06185200a9bbfbaadfdac0dfba7ac4e0ba1494/USDC",
+      },
       {
         label: 'Github',
         href: 'https://github.com/AntSwapToken/',
@@ -62,7 +70,8 @@ const config: MenuEntry[] = [
         label: 'Medium',
         href: 'https://medium.com/@antswaptoken',
       }
-    ],
+   ],
+    
   },
   {
     label: "Telegram",
