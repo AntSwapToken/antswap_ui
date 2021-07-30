@@ -34,7 +34,13 @@ export enum QuoteToken {
   'ANT' = 'ANT',
   'USDC' = 'USDC',
   'LAD' = 'LAD',
-  'RBAG' = 'RBAG'
+  'RBAG' = 'RBAG',
+
+  'ICE' = 'ICE',
+  'BONE' = 'BONE',
+  'TITAN' = 'TITAN',
+  'DINO' = 'DINO',
+
  }
 
 export enum PoolCategory {
