@@ -9,7 +9,7 @@ import { QuoteToken } from '../config/constants/types'
 
 
 
-const ZERO = new BigNumber(5.9)
+const ZERO = new BigNumber(100.0)
 
 export const useFetchPublicData = () => {
   const dispatch = useDispatch()
