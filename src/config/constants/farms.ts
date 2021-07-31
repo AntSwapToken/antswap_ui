@@ -380,46 +380,46 @@ const farms: FarmConfig[] = [
 
 // TITAN ---------------------------------------------------------
 
-{
-  pid: 19,
-  risk: 3,
-  lpSymbol: 'ANT-TITAN',
-  lpAddresses: {
-    97: '',
-    56: '',  
-    137: '0x893ae376cd8c02a005ee45f6ed6a7df05ab381e3', // ANT-TITAN
-  },
-  tokenSymbol: 'ANT',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0xaaa5b9e6c589642f98a1cda99b9d024b8407285a', // TITAN
-  },
-  quoteTokenSymbol: QuoteToken.TITAN,
-  quoteTokenAdresses: contracts.usdc,
-  tokenDecimals: 18,
-},
+// {
+//  pid: 19,
+//  risk: 3,
+//  lpSymbol: 'ANT-TITAN',
+//  lpAddresses: {
+//    97: '',
+//    56: '',  
+//    137: '0x893ae376cd8c02a005ee45f6ed6a7df05ab381e3', // ANT-TITAN
+//  },
+//  tokenSymbol: 'ANT',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0xaaa5b9e6c589642f98a1cda99b9d024b8407285a', // TITAN
+//  },
+//  quoteTokenSymbol: QuoteToken.TITAN,
+//  quoteTokenAdresses: contracts.usdc,
+//  tokenDecimals: 18,
+// },
 
-{
-  pid: 20,
-  isTokenOnly: true,
-  risk: 3,
-  lpSymbol: 'TITAN',
-  lpAddresses: {
-    97: '',
-    56: '',
-    137: '0x893ae376cd8c02a005ee45f6ed6a7df05ab381e3', // ANT - TITAN
-  },
-  tokenSymbol: 'TITAN',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0xaaa5b9e6c589642f98a1cda99b9d024b8407285a', // TITAN
-  },
-  quoteTokenSymbol: QuoteToken.TITAN,
-  quoteTokenAdresses: contracts.usdc,
-  tokenDecimals: 18,
-},
+ // {
+ // pid: 20,
+ // isTokenOnly: true,
+ // risk: 3,
+ // lpSymbol: 'TITAN',
+ // lpAddresses: {
+ //   97: '',
+  //  56: '',
+ //   137: '0x893ae376cd8c02a005ee45f6ed6a7df05ab381e3', // ANT - TITAN
+ // },
+  // tokenSymbol: 'TITAN',
+  // tokenAddresses: {
+  //   97: '',
+  //   56: '',
+  //   137: '0xaaa5b9e6c589642f98a1cda99b9d024b8407285a', // TITAN
+  // },
+  // quoteTokenSymbol: QuoteToken.TITAN,
+  // quoteTokenAdresses: contracts.usdc,
+  // tokenDecimals: 18,
+// },
 
 // DINO ---------------------------------------------------------
 
