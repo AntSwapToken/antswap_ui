@@ -53,6 +53,32 @@ export default {
     137: '0x8465d41d66ce05bde12fd3320f260e01aa4ced3f' // lad
   },
 
+  dino: {
+    56: '',
+    97: '',
+    137: '0xaa9654becca45b5bdfa5ac646c939c62b527d394' // dino
+  },
+
+  ice: {
+    56: '',
+    97: '',
+    137: '0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef' // ice
+  },
+
+  bone: {
+    56: '',
+    97: '',
+    137: '0x80244c2441779361f35803b8c711c6c8fc6054a3' // bone
+  },
+
+  titan: {
+    56: '',
+    97: '',
+    137: '0xaaa5b9e6c589642f98a1cda99b9d024b8407285a' // titan
+  },
+
+
+
   ant: {
     56: '',
     97: '',

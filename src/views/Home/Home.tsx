@@ -69,7 +69,7 @@ const Home: React.FC = () => {
         
 
 
-        <ExternalLinkWrap href={TranslateString(999, 'https://polygonscan.com/block/countdown/17510884')}>{TranslateString(999, 'View on Polygonscan')}</ExternalLinkWrap>
+        <ExternalLinkWrap href={TranslateString(999, 'https://polygonscan.com/block/countdown/17478400')}>{TranslateString(999, 'View on Polygonscan')}</ExternalLinkWrap>
 
         <img src="/images/Title Bar.png" alt="cake logo" width={950} height={225} />
       </Hero>
