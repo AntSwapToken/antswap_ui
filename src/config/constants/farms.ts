@@ -337,46 +337,46 @@ const farms: FarmConfig[] = [
 
 // BONE ---------------------------------------------------------
 
-{
-  pid: 17,
-  risk: 3,
-  lpSymbol: 'ANT-BONE',
-  lpAddresses: {
-    97: '',
-    56: '',  
-    137: '0x8b874aafb9ac4b92e2a298289e00601b704f5bb8', // ANT-BONE
-  },
-  tokenSymbol: 'ANT',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0x80244c2441779361f35803b8c711c6c8fc6054a3', // BONE
-  },
-  quoteTokenSymbol: QuoteToken.BONE,
-  quoteTokenAdresses: contracts.usdc,
-  tokenDecimals: 18,
-},
+// {
+//  pid: 17,
+//  risk: 3,
+//  lpSymbol: 'ANT-BONE',
+//  lpAddresses: {
+//    97: '',
+//    56: '',  
+//    137: '0x8b874aafb9ac4b92e2a298289e00601b704f5bb8', // ANT-BONE
+//  },
+//  tokenSymbol: 'ANT',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0x80244c2441779361f35803b8c711c6c8fc6054a3', // BONE
+//  },
+//  quoteTokenSymbol: QuoteToken.BONE,
+//  quoteTokenAdresses: contracts.usdc,
+//  tokenDecimals: 18,
+// },
 
-{
-  pid: 18,
-  isTokenOnly: true,
-  risk: 3,
-  lpSymbol: 'BONE',
-  lpAddresses: {
-    97: '',
-    56: '',
-    137: '0x8b874aafb9ac4b92e2a298289e00601b704f5bb8', // ICE - USDC
-  },
-  tokenSymbol: 'BONE',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0x80244c2441779361f35803b8c711c6c8fc6054a3', // BONE
-  },
-  quoteTokenSymbol: QuoteToken.BONE,
-  quoteTokenAdresses: contracts.usdc,
-  tokenDecimals: 18,
-},
+// {
+//  pid: 18,
+//  isTokenOnly: true,
+//  risk: 3,
+//  lpSymbol: 'BONE',
+//  lpAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0x8b874aafb9ac4b92e2a298289e00601b704f5bb8', // ICE - USDC
+//  },
+//  tokenSymbol: 'BONE',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0x80244c2441779361f35803b8c711c6c8fc6054a3', // BONE
+//  },
+//  quoteTokenSymbol: QuoteToken.BONE,
+//  quoteTokenAdresses: contracts.usdc,
+//  tokenDecimals: 18,
+// },
 
 // TITAN ---------------------------------------------------------
 
