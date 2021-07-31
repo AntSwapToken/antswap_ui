@@ -294,46 +294,46 @@ const farms: FarmConfig[] = [
  },
 
  // ICE ---------------------------------------------------------
- {
-  pid: 15,
-  risk: 3,
-  lpSymbol: 'ANT-ICE',
-  lpAddresses: {
-    97: '',
-    56: '',  
-    137: '0xd46b17069c57475afe82a567793e134cd3376d1b', // ANT-ICE
-  },
-  tokenSymbol: 'ANT',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef', // ICE
-  },
-  quoteTokenSymbol: QuoteToken.ICE,
-  quoteTokenAdresses: contracts.usdc,
-  tokenDecimals: 18,
-},
+ // {
+ // pid: 15,
+ // risk: 3,
+ // lpSymbol: 'ANT-ICE',
+ // lpAddresses: {
+ //   97: '',
+ //   56: '',  
+ //   137: '0xd46b17069c57475afe82a567793e134cd3376d1b', // ANT-ICE
+ // },
+ // tokenSymbol: 'ANT',
+ // tokenAddresses: {
+ //   97: '',
+ //   56: '',
+ //   137: '0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef', // ICE
+ // },
+ // quoteTokenSymbol: QuoteToken.ICE,
+ // quoteTokenAdresses: contracts.usdc,
+ // tokenDecimals: 18,
+// },
 
-{
-  pid: 16,
-  isTokenOnly: true,
-  risk: 3,
-  lpSymbol: 'ICE',
-  lpAddresses: {
-    97: '',
-    56: '',
-    137: '0x6be0dc66e5a88ce652f3ad89237e59257d6eb0f2', // ICE - USDC
-  },
-  tokenSymbol: 'ICE',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef', // ICE
-  },
-  quoteTokenSymbol: QuoteToken.ICE,
-  quoteTokenAdresses: contracts.usdc,
-  tokenDecimals: 18,
-},
+// {
+//  pid: 16,
+//  isTokenOnly: true,
+//  risk: 3,
+//  lpSymbol: 'ICE',
+ // lpAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0x6be0dc66e5a88ce652f3ad89237e59257d6eb0f2', // ICE - USDC
+//  },
+//  tokenSymbol: 'ICE',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef', // ICE
+//  },
+//  quoteTokenSymbol: QuoteToken.ICE,
+//  quoteTokenAdresses: contracts.usdc,
+//  tokenDecimals: 18,
+// },
 
 // BONE ---------------------------------------------------------
 
