@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, BaseLayout } from 'antswap-uikit'
+import {LinkExternal, Button, Heading, Text, BaseLayout } from 'antswap-uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import FarmStakingCard from './components/FarmStakingCard'
@@ -47,12 +47,30 @@ const Cards = styled(BaseLayout)`
   }
 `
 
+const ExternalLinkWrap = styled(LinkExternal)`
+  align-items: center;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+`
+
 const Home: React.FC = () => {
   const TranslateString = useI18n()
 
   return (
     <Page>
       <Hero>
+        
+        <img src="/images/farming_countdown.png" alt="cake logo" width={128} height={128} />
+        
+        <Text>{TranslateString(23, 'Countdown to Farming ')}:</Text>
+        
+
+
+        <ExternalLinkWrap href={TranslateString(999, 'https://polygonscan.com/block/countdown/17510884')}>{TranslateString(999, 'View on Polygonscan')}</ExternalLinkWrap>
+
         <img src="/images/Title Bar.png" alt="cake logo" width={950} height={225} />
       </Hero>
       <div>
