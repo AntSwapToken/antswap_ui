@@ -62,16 +62,7 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        
-        <img src="/images/farming_countdown.png" alt="cake logo" width={128} height={128} />
-        
-        <Text>{TranslateString(23, 'Countdown to Farming ')}:</Text>
-        
-
-
-        <ExternalLinkWrap href={TranslateString(999, 'https://polygonscan.com/block/countdown/17478400')}>{TranslateString(999, 'View on Polygonscan')}</ExternalLinkWrap>
-
-        <img src="/images/Title Bar.png" alt="cake logo" width={950} height={225} />
+          <img src="/images/Title Bar.png" alt="cake logo" width={950} height={225} />
       </Hero>
       <div>
         <Cards>
