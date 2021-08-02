@@ -8,6 +8,12 @@
     },
     {
       "data": {
+        "stringId": 2,
+        "text": "In the wake of the price drop of ANT Current Price ($0.78)"
+      }
+    },
+    {
+      "data": {
         "stringId": 280,
         "text": "Staking"
       }
@@ -1236,6 +1242,7 @@
         "text": "Announcements"
       }
     },
+    
     {
       "data": {
         "stringId": 10004,
@@ -1247,7 +1254,14 @@
         "stringId": 10005,
         "text": "Market Cap"
       }
+    },
+    {
+      "data": {
+        "stringId": 10006,
+        "text": "Important Announcement"
+      }
     }
+
   ],
   "pagination": {
     "offset": 0,
