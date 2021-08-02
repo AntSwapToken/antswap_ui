@@ -64,8 +64,8 @@ const Home: React.FC = () => {
       <Hero>
           <img src="/images/Title Bar.png" alt="cake logo" width={950} height={225} />
 
-          <Heading size="xl" mb="24px">
-          {TranslateString(10007, '---------------------------------------------')}
+          <Heading size="l" mb="24px">
+          {TranslateString(10007, '-----------------------------------------------------------------------------------------------------------------------------')}
           </Heading>
 
           <Heading size="xl" mb="24px">
@@ -75,8 +75,8 @@ const Home: React.FC = () => {
           <Heading size="l" mb="20px">
           {TranslateString(10007, '02-Aug-2021')}
           </Heading>
-          <Heading size="xl" mb="24px">
-          {TranslateString(10007, '---------------------------------------------')}
+          <Heading size="l" mb="24px">
+          {TranslateString(10007, '-----------------------------------------------------------------------------------------------------------------------------')}
           </Heading>
 
           <p>{TranslateString(1, 'In the wake of the price drop of ANT Current Price ($0.78)')}</p>
@@ -89,8 +89,8 @@ const Home: React.FC = () => {
           <p>{TranslateString(1, 'Please remove your liquidity from these pools and farms in next 24 hrs.')}  </p>
           <p>{TranslateString(1, '4. We are planning to keep farming and develop strategy to bring more liquidity in coming days and recover ANT price.')}  </p>
 
-          <Heading size="xl" mb="24px">
-          {TranslateString(10007, '---------------------------------------------')}
+          <Heading size="l" mb="24px">
+          {TranslateString(10007, '-----------------------------------------------------------------------------------------------------------------------------')}
           </Heading>
 
       </Hero>
