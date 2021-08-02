@@ -51,74 +51,74 @@ const farms: FarmConfig[] = [
 
   // Pool 23 - ANT-RBAG - Inactive 90%
   // ----------------------------------------------------------
- {
-  pid: 23,
-  risk: 3,
-  lpSymbol: 'ANT-RBAG',
-  lpAddresses: {
-    97: '',
-    56: '',  
-    137: '0x85d52451ddfabcbd0835de1ced02b2a194916ea7', // ANT-RBAG
-  },
-  tokenSymbol: 'ANT',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0xefFCa2dBB2D9F3816ceE07aE2134574FA9210dcb', // RBAG
-  },
-  quoteTokenSymbol: QuoteToken.RBAG,
-  quoteTokenAdresses: contracts.usdc,
-  tokenDecimals: 18,
- },
+// {
+//  pid: 23,
+//  risk: 3,
+//  lpSymbol: 'ANT-RBAG',
+//  lpAddresses: {
+//    97: '',
+//    56: '',  
+//    137: '0x85d52451ddfabcbd0835de1ced02b2a194916ea7', // ANT-RBAG
+//  },
+//  tokenSymbol: 'ANT',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0xefFCa2dBB2D9F3816ceE07aE2134574FA9210dcb', // RBAG
+//  },
+//  quoteTokenSymbol: QuoteToken.RBAG,
+//  quoteTokenAdresses: contracts.usdc,
+//  tokenDecimals: 18,
+// },
 
 
 
 // Pool 25 - RBAG-USDC - Inactive 90%
 // ----------------------------------------------------------
-{
-  pid: 25,
-  risk: 3,
-  lpSymbol: 'RBAG-USDC',
-  lpAddresses: {
-    97: '',
-    56: '',  
-    137: '0x27185b8adf22eec93e8e2310730d909e6f1edfc5', // RBAG-USDC
-  },
-  tokenSymbol: 'RBAG',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0xefFCa2dBB2D9F3816ceE07aE2134574FA9210dcb', // RBAG
-  },
-  quoteTokenSymbol: QuoteToken.USDC,
-  quoteTokenAdresses: contracts.usdc,
-  tokenDecimals: 18,
-},
+//  {
+//  pid: 25,
+//  risk: 3,
+//  lpSymbol: 'RBAG-USDC',
+//  lpAddresses: {
+//    97: '',
+//    56: '',  
+//    137: '0x27185b8adf22eec93e8e2310730d909e6f1edfc5', // RBAG-USDC
+//  },
+//  tokenSymbol: 'RBAG',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0xefFCa2dBB2D9F3816ceE07aE2134574FA9210dcb', // RBAG
+//  },
+//  quoteTokenSymbol: QuoteToken.USDC,
+//  quoteTokenAdresses: contracts.usdc,
+//  tokenDecimals: 18,
+// },
 
 
 // Pool 24 - RBAG - Inactive 90%
 // ----------------------------------------------------------
 
- {
-  pid: 24,
-  isTokenOnly: true,
-  risk: 3,
-  lpSymbol: 'RBAG',
-  lpAddresses: {
-    97: '',
-   56: '',
-    137: '0x27185b8adf22eec93e8e2310730d909e6f1edfc5', // RBAG - USDC
-  },
-  tokenSymbol: 'RBAG',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0xeffca2dbb2d9f3816cee07ae2134574fa9210dcb', // RBAG
-  },
-  quoteTokenSymbol: QuoteToken.RBAG,
-  quoteTokenAdresses: contracts.usdc,
-  tokenDecimals: 18,
- },
+// {
+//  pid: 24,
+//  isTokenOnly: true,
+//  risk: 3,
+//  lpSymbol: 'RBAG',
+//  lpAddresses: {
+//    97: '',
+//   56: '',
+//    137: '0x27185b8adf22eec93e8e2310730d909e6f1edfc5', // RBAG - USDC
+//  },
+//  tokenSymbol: 'RBAG',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0xeffca2dbb2d9f3816cee07ae2134574fa9210dcb', // RBAG
+//  },
+//  quoteTokenSymbol: QuoteToken.RBAG,
+//  quoteTokenAdresses: contracts.usdc,
+//  tokenDecimals: 18,
+// },
 
 
 // Pool 1 - WMATIC-USDC
@@ -239,26 +239,26 @@ const farms: FarmConfig[] = [
 
  // Pool 6 - YLD - Inactive 95 %
 // ----------------------------------------------------------
- {
-   pid: 6,
-   isTokenOnly: true,
-   risk: 3,
-   lpSymbol: 'YLD',
-   lpAddresses: {
-     97: '',
-     56: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
-     137: '0xead4c2d8859b2cb0698aeb7d0cf56a00468a4f5c', // YLD - MATIC
-   },
-   tokenSymbol: 'YLD',
-   tokenAddresses: {
-     97: '',
-     56: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
-     137: '0x4cebdbcb286101a17d3ea1f7fe7bbded2b2053dd', // YLD
-   },
-   quoteTokenSymbol: QuoteToken.BUSD,
-   quoteTokenAdresses: contracts.busd,
-   tokenDecimals: 18,
- },
+// {
+//   pid: 6,
+//   isTokenOnly: true,
+//   risk: 3,
+//   lpSymbol: 'YLD',
+//   lpAddresses: {
+//     97: '',
+//     56: '0x6e7a5fafcec6bb1e78bae2a1f0b612012bf14827',
+//     137: '0xead4c2d8859b2cb0698aeb7d0cf56a00468a4f5c', // YLD - MATIC
+//   },
+//   tokenSymbol: 'YLD',
+//   tokenAddresses: {
+//     97: '',
+//     56: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
+//     137: '0x4cebdbcb286101a17d3ea1f7fe7bbded2b2053dd', // YLD
+//   },
+//   quoteTokenSymbol: QuoteToken.BUSD,
+//   quoteTokenAdresses: contracts.busd,
+//   tokenDecimals: 18,
+// },
 
  // Pool 7 - USDT
 // ----------------------------------------------------------
@@ -378,101 +378,101 @@ const farms: FarmConfig[] = [
  // Pool 12 - LAD
 // ----------------------------------------------------------
 
- {
-  pid: 12,
-  isTokenOnly: true,
-  risk: 3,
-  lpSymbol: 'LAD',
-  lpAddresses: {
-    97: '',
-    56: '',
-    137: '0x3995fb93384a8907e949c072d41808cbaca4038f', // LAD - WMATIC
-  },
-  tokenSymbol: 'LAD',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0x8465d41d66ce05bde12fd3320f260e01aa4ced3f', // LAD
-  },
-  quoteTokenSymbol: QuoteToken.LAD,
-  quoteTokenAdresses: contracts.lad,
-  tokenDecimals: 18,
-},
+// {
+//  pid: 12,
+//  isTokenOnly: true,
+//  risk: 3,
+// lpSymbol: 'LAD',
+//  lpAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0x3995fb93384a8907e949c072d41808cbaca4038f', // LAD - WMATIC
+//  },
+//  tokenSymbol: 'LAD',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0x8465d41d66ce05bde12fd3320f260e01aa4ced3f', // LAD
+//  },
+//  quoteTokenSymbol: QuoteToken.LAD,
+//  quoteTokenAdresses: contracts.lad,
+//  tokenDecimals: 18,
+// },
 
 // Pool 13 - ANT-LAD
 // ----------------------------------------------------------
 
 
- {
-   pid: 13,
-   risk: 3,
-   lpSymbol: 'ANT-LAD',
-   lpAddresses: {
-     97: '',
-     56: '',  
-     137: '0x0cd1d499f9106b8dd49d54aae89c7b3bfbc417bb', // ANT-LAD
-   },
-   tokenSymbol: 'ANT',
-   tokenAddresses: {
-     97: '',
-     56: '',
-     137: '0x8465d41d66ce05bde12fd3320f260e01aa4ced3f', // LAD
-   },
-   quoteTokenSymbol: QuoteToken.LAD,
-   quoteTokenAdresses: contracts.busd,
-   tokenDecimals: 18,
- },
+// {
+//   pid: 13,
+//   risk: 3,
+//   lpSymbol: 'ANT-LAD',
+//   lpAddresses: {
+//     97: '',
+//     56: '',  
+//     137: '0x0cd1d499f9106b8dd49d54aae89c7b3bfbc417bb', // ANT-LAD
+//   },
+//   tokenSymbol: 'ANT',
+//   tokenAddresses: {
+//     97: '',
+//     56: '',
+//     137: '0x8465d41d66ce05bde12fd3320f260e01aa4ced3f', // LAD
+//   },
+//   quoteTokenSymbol: QuoteToken.LAD,
+//   quoteTokenAdresses: contracts.busd,
+//   tokenDecimals: 18,
+// },
 
 //  ICE ---------------------------------------------------------
 
 // Pool 15 - ANT-ICE  - Inactive 90%
 // ----------------------------------------------------------
 
-  {
-  pid: 15,
-  risk: 3,
-  lpSymbol: 'ANT-ICE',
-  lpAddresses: {
-    97: '',
-    56: '',  
-    137: '0xd46b17069c57475afe82a567793e134cd3376d1b', // ANT-ICE
-  },
-  tokenSymbol: 'ANT',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef', // ICE
-  },
-  quoteTokenSymbol: QuoteToken.ICE,
-  quoteTokenAdresses: contracts.ice,
-  tokenDecimals: 18,
-  },
+// {
+//  pid: 15,
+//  risk: 3,
+//  lpSymbol: 'ANT-ICE',
+//  lpAddresses: {
+//    97: '',
+//    56: '',  
+//    137: '0xd46b17069c57475afe82a567793e134cd3376d1b', // ANT-ICE
+//  },
+//  tokenSymbol: 'ANT',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef', // ICE
+//  },
+//  quoteTokenSymbol: QuoteToken.ICE,
+//  quoteTokenAdresses: contracts.ice,
+//  tokenDecimals: 18,
+//   },
 
 
 // Pool 16 - ICE - Inactive 90%
 // ----------------------------------------------------------
 
 
- {
-  pid: 16,
-  isTokenOnly: true,
-  risk: 3,
-  lpSymbol: 'ICE',
- lpAddresses: {
-    97: '',
-    56: '',
-    137: '0x6be0dc66e5a88ce652f3ad89237e59257d6eb0f2', // ICE - USDC
-  },
-  tokenSymbol: 'ICE',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef', // ICE
-  },
-  quoteTokenSymbol: QuoteToken.ICE,
-  quoteTokenAdresses: contracts.ice,
-  tokenDecimals: 18,
- },
+ // {
+ // pid: 16,
+ // isTokenOnly: true,
+ // risk: 3,
+ // lpSymbol: 'ICE',
+ // lpAddresses: {
+ //   97: '',
+ //   56: '',
+ //   137: '0x6be0dc66e5a88ce652f3ad89237e59257d6eb0f2', // ICE - USDC
+ // },
+ // tokenSymbol: 'ICE',
+ // tokenAddresses: {
+ //   97: '',
+ //   56: '',
+ //   137: '0x4A81f8796e0c6Ad4877A51C86693B0dE8093F2ef', // ICE
+ // },
+ // quoteTokenSymbol: QuoteToken.ICE,
+ // quoteTokenAdresses: contracts.ice,
+ // tokenDecimals: 18,
+ // },
 
 // BONE ---------------------------------------------------------
 
@@ -481,50 +481,50 @@ const farms: FarmConfig[] = [
 
 
 
- {
-  pid: 17,
-  risk: 3,
-  lpSymbol: 'ANT-BONE',
-  lpAddresses: {
-    97: '',
-    56: '',  
-    137: '0x8b874aafb9ac4b92e2a298289e00601b704f5bb8', // ANT-BONE
-  },
-  tokenSymbol: 'ANT',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0x80244c2441779361f35803b8c711c6c8fc6054a3', // BONE
-  },
-  quoteTokenSymbol: QuoteToken.BONE,
-  quoteTokenAdresses: contracts.bone,
-  tokenDecimals: 18,
- },
+// {
+//  pid: 17,
+//  risk: 3,
+//  lpSymbol: 'ANT-BONE',
+//  lpAddresses: {
+//    97: '',
+//    56: '',  
+//    137: '0x8b874aafb9ac4b92e2a298289e00601b704f5bb8', // ANT-BONE
+//  },
+//  tokenSymbol: 'ANT',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0x80244c2441779361f35803b8c711c6c8fc6054a3', // BONE
+//  },
+//  quoteTokenSymbol: QuoteToken.BONE,
+//  quoteTokenAdresses: contracts.bone,
+//  tokenDecimals: 18,
+// },
 
 
 // Pool 18 - BONE - Inactive 90%
 // ----------------------------------------------------------
 
- {
-  pid: 18,
-  isTokenOnly: true,
-  risk: 3,
-  lpSymbol: 'BONE',
-  lpAddresses: {
-    97: '',
-    56: '',
-    137: '0x8b874aafb9ac4b92e2a298289e00601b704f5bb8', // ICE - USDC
-  },
-  tokenSymbol: 'BONE',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0x80244c2441779361f35803b8c711c6c8fc6054a3', // BONE
-  },
-  quoteTokenSymbol: QuoteToken.BONE,
-  quoteTokenAdresses: contracts.bone,
-  tokenDecimals: 18,
- },
+// {
+//  pid: 18,
+//  isTokenOnly: true,
+//  risk: 3,
+//  lpSymbol: 'BONE',
+//  lpAddresses: {
+//   97: '',
+//    56: '',
+//    137: '0x8b874aafb9ac4b92e2a298289e00601b704f5bb8', // ICE - USDC
+//  },
+//  tokenSymbol: 'BONE',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0x80244c2441779361f35803b8c711c6c8fc6054a3', // BONE
+//  },
+//  quoteTokenSymbol: QuoteToken.BONE,
+//  quoteTokenAdresses: contracts.bone,
+//  tokenDecimals: 18,
+// },
 
 // TITAN ---------------------------------------------------------
 
@@ -532,50 +532,50 @@ const farms: FarmConfig[] = [
 // Pool 19 - ANT-TITAN - Inactive 90%
 // ----------------------------------------------------------
 
- {
-  pid: 19,
-  risk: 3,
-  lpSymbol: 'ANT-TITAN',
-  lpAddresses: {
-    97: '',
-    56: '',  
-    137: '0x893ae376cd8c02a005ee45f6ed6a7df05ab381e3', // ANT-TITAN
-  },
-  tokenSymbol: 'ANT',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0xaaa5b9e6c589642f98a1cda99b9d024b8407285a', // TITAN
-  },
-  quoteTokenSymbol: QuoteToken.TITAN,
-  quoteTokenAdresses: contracts.titan,
-  tokenDecimals: 18,
- },
+// {
+//  pid: 19,
+//  risk: 3,
+//  lpSymbol: 'ANT-TITAN',
+//  lpAddresses: {
+//    97: '',
+//    56: '',  
+//    137: '0x893ae376cd8c02a005ee45f6ed6a7df05ab381e3', // ANT-TITAN
+//  },
+//  tokenSymbol: 'ANT',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0xaaa5b9e6c589642f98a1cda99b9d024b8407285a', // TITAN
+//  },
+//  quoteTokenSymbol: QuoteToken.TITAN,
+//  quoteTokenAdresses: contracts.titan,
+//  tokenDecimals: 18,
+// },
 
 // Pool 20 - TITAN - Inactive 90%
 // ----------------------------------------------------------
 
  
- {
-  pid: 20,
-  isTokenOnly: true,
-  risk: 3,
-  lpSymbol: 'TITAN',
-  lpAddresses: {
-    97: '',
-   56: '',
-    137: '0x893ae376cd8c02a005ee45f6ed6a7df05ab381e3', // ANT - TITAN
-  },
-  tokenSymbol: 'TITAN',
-  tokenAddresses: {
-     97: '',
-     56: '',
-     137: '0xaaa5b9e6c589642f98a1cda99b9d024b8407285a', // TITAN
-   },
-   quoteTokenSymbol: QuoteToken.TITAN,
-   quoteTokenAdresses: contracts.titan,
-   tokenDecimals: 18,
- },
+// {
+//  pid: 20,
+//  isTokenOnly: true,
+//  risk: 3,
+//  lpSymbol: 'TITAN',
+//  lpAddresses: {
+//    97: '',
+//   56: '',
+//    137: '0x893ae376cd8c02a005ee45f6ed6a7df05ab381e3', // ANT - TITAN
+//  },
+//  tokenSymbol: 'TITAN',
+//  tokenAddresses: {
+//     97: '',
+//     56: '',
+//     137: '0xaaa5b9e6c589642f98a1cda99b9d024b8407285a', // TITAN
+//   },
+//   quoteTokenSymbol: QuoteToken.TITAN,
+//   quoteTokenAdresses: contracts.titan,
+//   tokenDecimals: 18,
+// },
 
 // DINO ---------------------------------------------------------
 
@@ -583,50 +583,50 @@ const farms: FarmConfig[] = [
 // ----------------------------------------------------------
 
 
-{
-  pid: 21,
-  risk: 3,
-  lpSymbol: 'ANT-DINO',
-  lpAddresses: {
-    97: '',
-    56: '',  
-    137: '0xe02749996aa5234d1385cbde763fe5a21d553d71', // ANT-DINO
-  },
-  tokenSymbol: 'ANT',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0xaa9654becca45b5bdfa5ac646c939c62b527d394', // DINO
-  },
-  quoteTokenSymbol: QuoteToken.DINO,
-  quoteTokenAdresses: contracts.dino,
-  tokenDecimals: 18,
-},
+// {
+//  pid: 21,
+//  risk: 3,
+//  lpSymbol: 'ANT-DINO',
+//  lpAddresses: {
+//    97: '',
+//    56: '',  
+//    137: '0xe02749996aa5234d1385cbde763fe5a21d553d71', // ANT-DINO
+//  },
+// tokenSymbol: 'ANT',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//   137: '0xaa9654becca45b5bdfa5ac646c939c62b527d394', // DINO
+//  },
+//  quoteTokenSymbol: QuoteToken.DINO,
+//  quoteTokenAdresses: contracts.dino,
+//  tokenDecimals: 18,
+// },
 
 
 // Pool 22 - DINO - Inactive 90% Fee
 // ----------------------------------------------------------
 
-{
-  pid: 22,
-  isTokenOnly: true,
-  risk: 3,
-  lpSymbol: 'DINO',
-  lpAddresses: {
-    97: '',
-    56: '',
-    137: '0xe02749996aa5234d1385cbde763fe5a21d553d71', // ANT - DINO
-  },
-  tokenSymbol: 'DINO',
-  tokenAddresses: {
-    97: '',
-    56: '',
-    137: '0xaa9654becca45b5bdfa5ac646c939c62b527d394', // DINO
-  },
-  quoteTokenSymbol: QuoteToken.DINO,
-  quoteTokenAdresses: contracts.dino,
-  tokenDecimals: 18,
-},
+// {
+//  pid: 22,
+//  isTokenOnly: true,
+//  risk: 3,
+//  lpSymbol: 'DINO',
+//  lpAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0xe02749996aa5234d1385cbde763fe5a21d553d71', // ANT - DINO
+//  },
+//  tokenSymbol: 'DINO',
+//  tokenAddresses: {
+//    97: '',
+//    56: '',
+//    137: '0xaa9654becca45b5bdfa5ac646c939c62b527d394', // DINO
+//  },
+//  quoteTokenSymbol: QuoteToken.DINO,
+//  quoteTokenAdresses: contracts.dino,
+//  tokenDecimals: 18,
+// },
 
 
 
