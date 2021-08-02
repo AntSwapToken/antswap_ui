@@ -43,6 +43,30 @@ export enum QuoteToken {
 
  }
 
+ export enum ImageName {
+  'BNB' = 'bnb',
+  'CAKE' = 'cake',
+  'SYRUP' = 'syrup',
+  'BUSD' = 'busd',
+  'TWT' = 'twt',
+  'UST' = 'ust',
+  'STONK' = 'stonk',
+  'WBTC' = 'wbtc',
+  'WMATIC' = 'wmatic',
+  'QUICK' = 'quick',
+  'WETH' = 'weth',
+  'ANT' = 'ant',
+  'USDC' = 'usdc',
+  'LAD' = 'lad',
+  'RBAG' = 'rbag',
+
+  'ICE' = 'ice',
+  'BONE' = 'bone',
+  'TITAN' = 'titan',
+  'DINO' = 'dino',
+
+ }
+
 export enum PoolCategory {
   'COMMUNITY' = 'Community',
   'CORE' = 'Core',
