@@ -84,7 +84,7 @@ const config: MenuEntry[] = [
               
               {
                   label: "Announcements",
-                  href: "https://t.me/AntSwapToken",
+                  href: "https://antswap.club/",
               },
            ],
   },

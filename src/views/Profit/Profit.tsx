@@ -71,14 +71,19 @@ const Farm: React.FC = () => {
     <Page>
       <Hero>
         <div>
-          <Heading as="h1" size="xxl" mb="16px">
+          <Heading as="h1" size="xl" mb="16px">
             {TranslateString(282, 'Profit Sharing Pool')}
           </Heading>
           <ul>
-            <li>Stake ANT to revieve dividend payouts.</li>
+            <li>Stake WETH Tokens to revieve dividend payouts.</li>
             <li>You can unstake at any time.</li>
             <li>Dividends are distributed linearly over the week.</li>
+            <li>-------------------------------------------------</li>
+           
+            <li>-------------------------------------------------</li>
           </ul>
+          <img src="/images/fly_with_us.png" alt="Ant Fly Icon" width={100} height={100} />
+          <img src="/images/tokens/usdc_to_ant.png" alt="Ant to WETH" width={200} height={860} />
         </div>
         <img src="/images/syrup.png" alt="SYRUP POOL icon" width={410} height={191} />
       </Hero>

@@ -1,7 +1,8 @@
 import { PoolConfig, QuoteToken, PoolCategory } from './types'
 
 const pools: PoolConfig[] = [
-   {
+  //  // old ANT Dividend contract - Closed
+  /* {
      sousId: 1,
      tokenName: 'ANT',
      stakingTokenName: QuoteToken.ANT,
@@ -19,6 +20,8 @@ const pools: PoolConfig[] = [
      isFinished: false,
      tokenDecimals: 18,
    }
+
+  */
   // {
   //   sousId: 1,
   //   tokenName: 'TWT',
@@ -36,6 +39,27 @@ const pools: PoolConfig[] = [
   //   isFinished: true,
   //   tokenDecimals: 18,
   // },
+
+  /* {
+    sousId: 1,
+    tokenName: 'WETH',
+    stakingTokenName: QuoteToken.WETH,
+    stakingTokenAddress: '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+    contractAddress: {
+      97: '0x6131D6F7d433D8CDDA68EB8d57E9710E664a3Be5',
+      56: '0x6131D6F7d433D8CDDA68EB8d57E9710E664a3Be5',
+     137: '0x6131D6F7d433D8CDDA68EB8d57E9710E664a3Be5'
+    },
+    poolCategory: PoolCategory.COMMUNITY,
+    projectLink: 'https://antswap.club/',
+    harvest: true,
+    tokenPerBlock: '.0025',   // 2500000000000000
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+  }
+  */
+  
 ]
 
 export default pools

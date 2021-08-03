@@ -115,7 +115,8 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
   const blocksUntilStart = Math.max(startBlock - block, 0)
   const blocksRemaining = Math.max(endBlock - block, 0)
   const isOldSyrup = stakingTokenName === QuoteToken.SYRUP
-  const antimage = ImageName.ANT
+  const lpTokenImage = ImageName.WETH
+  const rewardTokenImage = QuoteToken.ANT
   const accountHasStakedBalance = stakedBalance?.toNumber() > 0
   const needsApproval = !accountHasStakedBalance && !allowance.toNumber() && !isBnbPool
   const isCardActive = isFinished && accountHasStakedBalance
@@ -161,7 +162,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
         </CardTitle>
         <div style={{ marginBottom: '8px', display: 'flex', alignItems: 'center' }}>
           <div style={{ flex: 1 }}>
-            <Image src={`/images/tokens/${antimage}.png`} width={64} height={64} alt={tokenName} />
+            <Image src={`/images/tokens/${lpTokenImage}.png`} width={64} height={64} alt={tokenName} />
           </div>
           {account && harvest && !isOldSyrup && (
             <HarvestButton
@@ -189,7 +190,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
         ) : (
           <OldSyrupTitle hasBalance={accountHasStakedBalance} />
         )}
-        <Label isFinished={isFinished && sousId !== 0} text={`${tokenName} Earned`} />
+        <Label isFinished={isFinished && sousId !== 0} text={`${rewardTokenImage} Earned`} />
         <Flex justifyContent="space-between">
         <Text style={{ fontSize: '24px' }}>{TranslateString(10001, 'Deposit Fee')}:</Text>
         <Text bold style={{ fontSize: '24px' }}>
@@ -243,7 +244,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
             <span role="img" aria-label={stakingTokenName}>
             <div style={{ flex: 1 }}>
               {TranslateString(384, 'Your Stake')}:
-              <Image src={`/images/tokens/${antimage}.png`} width={20} height={20} alt="Ant" />{' '}
+              <Image src={`/images/tokens/${lpTokenImage}.png`} width={20} height={20} alt="USDC" />{' '}
               
             </div>
             
