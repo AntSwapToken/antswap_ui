@@ -37,10 +37,10 @@ const CakeStats = () => {
   }
 
   return (
-    <Heading as="h3">
+    <Heading as="h5">
       {blocksTillProfit && (
         <CardValue
-          fontSize="24px"
+          fontSize="16px"
           value={Math.max(14504555 - block, 0)}
           decimals={0}
           prefix="Blocks until profit sharing "

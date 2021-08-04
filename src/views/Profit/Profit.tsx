@@ -72,18 +72,23 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xl" mb="16px">
-            {TranslateString(282, 'Profit Sharing Pool')}
+            {TranslateString(282, 'Mega Profit Sharing Pool')}
           </Heading>
           <ul>
-            <li>Stake WETH Tokens to revieve dividend payouts.</li>
-            <li>You can unstake at any time.</li>
+            <img src="/images/fly_with_us.png" alt="Ant Fly Icon" width={100} height={100} />
+            <img src="/images/tokens/wmatic_to_ant.png" alt="WMATIC to ANT" width={200} height={860} />
+
+            <li>Stake WMATIC Tokens to receive MEGA dividend payouts.</li>
+            <li>You can unstake at any time. Once you unstake you can withdraw WMATIC + Accumulated ANT</li>
+            <li>You can not harvest farmed/Accumulated ANT only</li>
             <li>Dividends are distributed linearly over the week.</li>
+
             <li>-------------------------------------------------</li>
-           
+            <li>Boost = 20x</li>
+            <li>Deposit Fee = 10%</li>
+            <li>Ants per block  = 0.0025</li>
             <li>-------------------------------------------------</li>
           </ul>
-          <img src="/images/fly_with_us.png" alt="Ant Fly Icon" width={100} height={100} />
-          <img src="/images/tokens/usdc_to_ant.png" alt="Ant to WETH" width={200} height={860} />
         </div>
         <img src="/images/syrup.png" alt="SYRUP POOL icon" width={410} height={191} />
       </Hero>

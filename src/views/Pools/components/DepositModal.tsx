@@ -4,7 +4,7 @@ import { Button, Modal } from 'antswap-uikit'
 import ModalActions from 'components/ModalActions'
 import TokenInput from '../../../components/TokenInput'
 import useI18n from '../../../hooks/useI18n'
-import { getFullDisplayBalance } from '../../../utils/formatBalance'
+import { getFullDisplayBalance , getUsdFullDisplayBalance } from '../../../utils/formatBalance'
 
 interface DepositModalProps {
   max: BigNumber
@@ -43,7 +43,7 @@ const DepositModal: React.FC<DepositModalProps> = ({ max, onConfirm, onDismiss, 
       />
       <ModalActions>
         <Button fullWidth variant="secondary" onClick={onDismiss}>
-          {TranslateString(462, 'Cancel')}
+          {TranslateString(462, 'Cancel')} 
         </Button>
         <Button
           fullWidth

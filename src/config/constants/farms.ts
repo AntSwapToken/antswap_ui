@@ -301,9 +301,9 @@ const farms: FarmConfig[] = [
      56: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',
      137: '0x2791bca1f2de4661ed88a30c99a7a9449aa84174', // USDC
    },
-   quoteTokenSymbol: QuoteToken.BUSD,
-   quoteTokenAdresses: contracts.busd,
-   tokenDecimals: 18,
+   quoteTokenSymbol: QuoteToken.USDC,
+   quoteTokenAdresses: contracts.usdc,
+   tokenDecimals: 6,
  },
 
 

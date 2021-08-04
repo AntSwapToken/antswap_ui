@@ -4,7 +4,7 @@ const pools: PoolConfig[] = [
   //  // old ANT Dividend contract - Closed
   /* {
      sousId: 1,
-     tokenName: 'ANT',
+     tokenName: 'WMATIC',
      stakingTokenName: QuoteToken.ANT,
      stakingTokenAddress: '0x7f06185200a9BbFbaaDFDAC0DFbA7ac4e0Ba1494',
      contractAddress: {
@@ -21,7 +21,9 @@ const pools: PoolConfig[] = [
      tokenDecimals: 18,
    }
 
-  */
+   */
+
+  
   // {
   //   sousId: 1,
   //   tokenName: 'TWT',
@@ -59,6 +61,25 @@ const pools: PoolConfig[] = [
     tokenDecimals: 18,
   }
   */
+
+  {
+    sousId: 1,
+    tokenName: 'WMATIC',
+    stakingTokenName: QuoteToken.WMATIC,
+    stakingTokenAddress: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+    contractAddress: {
+      97: '0xAE678014Af084A15a3444855B71a4deaFAE4Eb28',
+      56: '0xAE678014Af084A15a3444855B71a4deaFAE4Eb28',
+     137: '0xAE678014Af084A15a3444855B71a4deaFAE4Eb28'
+    },
+    poolCategory: PoolCategory.COMMUNITY,
+    projectLink: 'https://antswap.club/',
+    harvest: true,
+    tokenPerBlock: '.00055',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+  }
   
 ]
 

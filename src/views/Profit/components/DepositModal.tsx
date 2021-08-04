@@ -4,7 +4,7 @@ import { Button, Modal } from 'antswap-uikit'
 import ModalActions from 'components/ModalActions'
 import TokenInput from '../../../components/TokenInput'
 import useI18n from '../../../hooks/useI18n'
-import { getFullDisplayBalance , getUsdFullDisplayBalance } from '../../../utils/formatBalance'
+import { getBalanceNumber , getFullDisplayBalance , getUsdFullDisplayBalance } from '../../../utils/formatBalance'
 
 interface DepositModalProps {
   max: BigNumber
