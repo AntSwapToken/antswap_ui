@@ -78,13 +78,14 @@ const Farm: React.FC = () => {
             <img src="/images/fly_with_us.png" alt="Ant Fly Icon" width={100} height={100} />
             <img src="/images/tokens/wmatic_to_ant.png" alt="WMATIC to ANT" width={200} height={860} />
 
-            <li>Stake WMATIC Tokens to receive MEGA dividend payouts.</li>
-            <li>You can unstake at any time. Once you unstake you can withdraw WMATIC but you will lose Accumulated ANT</li>
-            <li>You can not harvest farmed/Accumulated ANT only. You can harvest ANT once the staking period ends.</li>
-            <li>Dividends are distributed linearly over the week.</li>
+            <li>DYOR - Do your own research (High Risk High Rewards)</li>
+            <li>* Stake WMATIC Tokens to receive MEGA dividend payouts.</li>
+            <li>* You can unstake at any time. Once you unstake you can withdraw WMATIC but you will lose Accumulated ANT</li>
+            <li>* You can not harvest farmed/Accumulated ANT only. You can harvest ANT once the staking period ends.</li>
+            <li>* Dividends are distributed linearly over the week.</li>
 
             <li>-------------------------------------------------</li>
-            <li>Boost = 20x</li>
+            <li>Boost = 100x</li>
             <li>Deposit Fee = 10%</li>
             <li>Ants per block  = 0.0025</li>
             <li>-------------------------------------------------</li>
