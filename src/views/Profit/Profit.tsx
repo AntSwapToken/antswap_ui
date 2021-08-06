@@ -80,8 +80,8 @@ const Farm: React.FC = () => {
 
             <li>DYOR - Do your own research (High Risk High Rewards)</li>
             <li>* Stake WMATIC Tokens to receive MEGA dividend payouts.</li>
-            <li>* You can unstake at any time. Once you unstake you can withdraw WMATIC + Accumulated ANT</li>
-            <li>* You can harvest farmed/Accumulated ANT also.</li>
+            <li>* You can unstake at any time. Once you unstake you can withdraw WMATIC. Once you stake again, you'll pay staking fee again.</li>
+            <li>* You can harvest farmed/Accumulated ANT at any time.</li>
             <li>* Dividends are distributed linearly over the week.</li>
 
             <li>-------------------------------------------------</li>
