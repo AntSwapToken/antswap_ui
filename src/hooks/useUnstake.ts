@@ -27,7 +27,7 @@ const useUnstake = (pid: number) => {
   return { onUnstake: handleUnstake }
 }
 
-const SYRUPIDS = [5, 6, 3, 1, 22, 23]
+const SYRUPIDS = [5, 6, 3, 22, 23]
 
 export const useSousUnstake = (sousId) => {
   const dispatch = useDispatch()
@@ -40,13 +40,19 @@ export const useSousUnstake = (sousId) => {
     async (amount: string) => {
       if (sousId === 0) {
         const txHash = await unstake(masterChefContract, 0, amount, account)
+        console.info('in block 1')
         console.info(txHash)
+        
       } else if (isOldSyrup) {
         const txHash = await sousEmegencyUnstake(sousChefContract, amount, account)
+        console.info('in block 2')
         console.info(txHash)
+        
       } else {
         const txHash = await sousUnstake(sousChefContract, amount, account)
+        console.info('in block 3')
         console.info(txHash)
+        
       }
       dispatch(updateUserStakedBalance(sousId, account))
       dispatch(updateUserBalance(sousId, account))

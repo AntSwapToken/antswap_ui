@@ -1260,6 +1260,12 @@
         "stringId": 10006,
         "text": "Important Announcement"
       }
+    },
+    {
+      "data": {
+        "stringId": 10007,
+        "text": "Multiplier"
+      }
     }
 
   ],
