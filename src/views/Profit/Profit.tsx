@@ -72,7 +72,7 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xl" mb="16px">
-            {TranslateString(282, 'Mega Profit Sharing Pool')}
+            {TranslateString(282, 'Super Mega Boost Sharing Pool')}
           </Heading>
           <ul>
             <img src="/images/fly_with_us.png" alt="Ant Fly Icon" width={100} height={100} />
@@ -85,9 +85,9 @@ const Farm: React.FC = () => {
             <li>* Dividends are distributed linearly over the week.</li>
 
             <li>-------------------------------------------------</li>
-            <li>Boost = 20x</li>
-            <li>Deposit Fee = 10%</li>
-            <li>Ants per block  = 0.0025</li>
+            <li>Boost = 2000x</li>
+            <li>Deposit Fee = 20%</li>
+            <li>Ants per block  = 0.020</li>
             <li>-------------------------------------------------</li>
           </ul>
         </div>

@@ -193,9 +193,9 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
         <Label isFinished={isFinished && sousId !== 0} text={`${rewardTokenImage} Earned`} />
         <Flex justifyContent="space-between">
         <Text style={{ fontSize: '12px' }}>{TranslateString(10001, 'Deposit Fee')}:</Text>
-        <Text bold style={{ fontSize: '12px' }}>10 %</Text>
+        <Text bold style={{ fontSize: '12px' }}>20 %</Text>
         <Text style={{ fontSize: '12px' }}>{TranslateString(10007, 'Multiplier')}:</Text>
-        <Text bold style={{ fontSize: '12px' }}>20x</Text>
+        <Text bold style={{ fontSize: '12px' }}>2000x</Text>
       </Flex>
         <StyledCardActions>
           {!account && <UnlockButton />}
@@ -220,7 +220,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
                       : onPresentWithdraw
                   }
                 >
-                  {`Unstake ${stakingTokenName}`} - {sousId} - {`${isOldSyrup}`}
+                  {`Unstake ${stakingTokenName}`}
                 </Button>
                 <StyledActionSpacer />
                 {!isOldSyrup && (

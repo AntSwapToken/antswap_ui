@@ -68,14 +68,14 @@ const pools: PoolConfig[] = [
     stakingTokenName: QuoteToken.WMATIC,
     stakingTokenAddress: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
     contractAddress: {
-      97: '0xAE678014Af084A15a3444855B71a4deaFAE4Eb28',
-      56: '0xAE678014Af084A15a3444855B71a4deaFAE4Eb28',
-     137: '0xAE678014Af084A15a3444855B71a4deaFAE4Eb28'
+      97: '0x8EDaF51e0F3b62dc86675aea97Aff6f73E34eB92',
+      56: '0x8EDaF51e0F3b62dc86675aea97Aff6f73E34eB92',
+     137: '0x8EDaF51e0F3b62dc86675aea97Aff6f73E34eB92'
     },
     poolCategory: PoolCategory.COMMUNITY,
     projectLink: 'https://antswap.club/',
     harvest: true,
-    tokenPerBlock: '.00055',
+    tokenPerBlock: '.002',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
