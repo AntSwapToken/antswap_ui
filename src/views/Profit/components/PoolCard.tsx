@@ -195,7 +195,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
         <Text style={{ fontSize: '12px' }}>{TranslateString(10001, 'Deposit Fee')}:</Text>
         <Text bold style={{ fontSize: '12px' }}>20 %</Text>
         <Text style={{ fontSize: '12px' }}>{TranslateString(10007, 'Multiplier')}:</Text>
-        <Text bold style={{ fontSize: '12px' }}>2000x</Text>
+        <Text bold style={{ fontSize: '12px' }}>5000x</Text>
       </Flex>
         <StyledCardActions>
           {!account && <UnlockButton />}

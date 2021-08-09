@@ -85,7 +85,7 @@ const Farm: React.FC = () => {
             <li>* Dividends are distributed linearly over the week.</li>
 
             <li>-------------------------------------------------</li>
-            <li>Boost = 2000x</li>
+            <li>Boost = 5000x</li>
             <li>Deposit Fee = 20%</li>
             <li>Ants per block  = 0.020</li>
             <li>-------------------------------------------------</li>
