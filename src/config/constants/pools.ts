@@ -61,9 +61,9 @@ const pools: PoolConfig[] = [
     tokenDecimals: 18,
   }
   */
-
- /* {
-    sousId: 1,
+/*
+  {
+    sousId: 2,
     tokenName: 'WMATIC',
     stakingTokenName: QuoteToken.WMATIC,
     stakingTokenAddress: '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
@@ -79,9 +79,9 @@ const pools: PoolConfig[] = [
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
-  }
-  */
-
+  },
+ 
+*/
 
   {
     sousId: 1,

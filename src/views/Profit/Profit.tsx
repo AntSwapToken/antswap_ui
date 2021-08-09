@@ -72,11 +72,11 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xl" mb="16px">
-            {TranslateString(282, 'Super Mega Boost Sharing Pool')}
+            {TranslateString(282, '(DAI) to (ANT) Super Mega Boost Sharing Pool')}
           </Heading>
           <ul>
             <img src="/images/fly_with_us.png" alt="Ant Fly Icon" width={100} height={100} />
-            <img src="/images/tokens/wmatic_to_ant.png" alt="DAI to ANT" width={200} height={860} />
+            <img src="/images/tokens/dai_to_ant.png" alt="DAI to ANT" width={200} height={860} />
 
             <li>DYOR - Do your own research (High Risk High Rewards)</li>
             <li>* Stake DAI Tokens to receive MEGA dividend payouts.</li>
@@ -87,7 +87,7 @@ const Farm: React.FC = () => {
             <li>-------------------------------------------------</li>
             <li>Boost = 3000x</li>
             <li>Deposit Fee = 20%</li>
-            <li>Ants per block  = 0.0025</li>
+            <li>Ants per block  = 0.025</li>
             <li>-------------------------------------------------</li>
           </ul>
         </div>

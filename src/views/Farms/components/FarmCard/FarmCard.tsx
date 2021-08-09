@@ -145,6 +145,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     if (farm.quoteTokenSymbol === QuoteToken.TITAN) {
       return cakePrice.times(farm.lpTotalInQuoteToken)
     }
+    
 
 
     return farm.lpTotalInQuoteToken
