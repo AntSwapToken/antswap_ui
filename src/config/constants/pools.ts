@@ -62,7 +62,7 @@ const pools: PoolConfig[] = [
   }
   */
 
-  {
+ /* {
     sousId: 1,
     tokenName: 'WMATIC',
     stakingTokenName: QuoteToken.WMATIC,
@@ -76,6 +76,27 @@ const pools: PoolConfig[] = [
     projectLink: 'https://antswap.club/',
     harvest: true,
     tokenPerBlock: '.002',
+    sortOrder: 1,
+    isFinished: false,
+    tokenDecimals: 18,
+  }
+  */
+
+
+  {
+    sousId: 1,
+    tokenName: 'DAI',
+    stakingTokenName: QuoteToken.DAI,
+    stakingTokenAddress: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
+    contractAddress: {
+      97: '0xF968B7BB58F424d5a3B6e0bBcd05b7F93f100AC9',
+      56: '0xF968B7BB58F424d5a3B6e0bBcd05b7F93f100AC9',
+     137: '0xF968B7BB58F424d5a3B6e0bBcd05b7F93f100AC9'
+    },
+    poolCategory: PoolCategory.COMMUNITY,
+    projectLink: 'https://antswap.club/',
+    harvest: true,
+    tokenPerBlock: '.0025',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,

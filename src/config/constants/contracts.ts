@@ -90,4 +90,9 @@ export default {
     97: '',
     137: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270' // WMATIC
   },
+  dai: {
+    56: '',
+    97: '',
+    137: '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063' // WMATIC
+  },
 }

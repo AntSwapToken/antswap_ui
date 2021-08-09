@@ -125,13 +125,14 @@ const fetchFarms = async () => {
         tokenAmount = new BigNumber(lpTokenBalanceMC).div(new BigNumber(10).pow(tokenDecimals))
         // if (farmConfig.tokenSymbol === QuoteToken.BUSD && farmConfig.quoteTokenSymbol === QuoteToken.BUSD) {
           if((    farmConfig.tokenSymbol === QuoteToken.ANT 
+               || farmConfig.tokenSymbol === QuoteToken.DAI 
                || farmConfig.tokenSymbol === QuoteToken.RBAG 
                || farmConfig.tokenSymbol === QuoteToken.WMATIC 
                || farmConfig.tokenSymbol === QuoteToken.QUICK 
                || farmConfig.tokenSymbol === QuoteToken.WETH  
-               ||  farmConfig.tokenSymbol === QuoteToken.BONE 
+               || farmConfig.tokenSymbol === QuoteToken.BONE 
                || farmConfig.quoteTokenSymbol === QuoteToken.ICE 
-               ||  farmConfig.tokenSymbol === QuoteToken.DINO 
+               || farmConfig.tokenSymbol === QuoteToken.DINO 
                || farmConfig.quoteTokenSymbol === QuoteToken.TITAN 
             )   
             && farmConfig.quoteTokenSymbol === QuoteToken.BUSD 

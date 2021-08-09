@@ -40,6 +40,7 @@ export enum QuoteToken {
   'BONE' = 'BONE',
   'TITAN' = 'TITAN',
   'DINO' = 'DINO',
+  'DAI' = 'DAI'
 
  }
 
@@ -64,6 +65,8 @@ export enum QuoteToken {
   'BONE' = 'bone',
   'TITAN' = 'titan',
   'DINO' = 'dino',
+  'DAI' = 'dai',
+
 
  }
 
