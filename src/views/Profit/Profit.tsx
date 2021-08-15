@@ -79,14 +79,16 @@ const Farm: React.FC = () => {
             <img src="/images/tokens/dai_to_ant.png" alt="DAI to ANT" width={200} height={860} />
 
             <li>DYOR - Do your own research (High Risk High Rewards)</li>
-            <li>* Stake DAI Tokens to receive MEGA dividend payouts.</li>
-            <li>* You can unstake at any time. Once you unstake you can withdraw DAI + Accumulated ANT</li>
+            <li>* Stake QUICK Tokens to receive MEGA dividend payouts.</li>
+            <li>* You can unstake at any time. Once you unstake you can withdraw QUICK + Accumulated ANT</li>
             <li>* You can harvest Farmed/Accumulated ANT at any time.</li>
             <li>* Dividends are distributed linearly over the week.</li>
 
             <li>-------------------------------------------------</li>
-            <li>Boost = 3000x</li>
-            <li>Deposit Fee = 20%</li>
+            <li><a href="https://polygonscan.com/address/0x732710c4b0De0F987955e2EFfeB07E7395078f8a">Staking Contract Address</a></li>
+            <li>Stake = QUICK (0x831753dd7087cac61ab5644b308642cc1c33dc13)</li>
+            <li>Boost = 5000x</li>
+            <li>Deposit Fee = 30%</li>
             <li>Ants per block  = 0.025</li>
             <li>-------------------------------------------------</li>
           </ul>
