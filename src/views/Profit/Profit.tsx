@@ -72,11 +72,11 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xl" mb="16px">
-            {TranslateString(282, '(QUICK) to (ANT) Super Mega Boost Sharing Pool')}
+            {TranslateString(282, '(DAI) to (ANT) Super Mega Boost Sharing Pool')}
           </Heading>
           <ul>
             <img src="/images/fly_with_us.png" alt="Ant Fly Icon" width={100} height={100} />
-            <img src="/images/tokens/quick_to_ant.png" alt="QUICK to ANT" width={200} height={860} />
+            <img src="/images/tokens/dai_to_ant.png" alt="DAI to ANT" width={200} height={860} />
 
             <li>DYOR - Do your own research (High Risk High Rewards)</li>
             <li>* Stake DAI Tokens to receive MEGA dividend payouts.</li>
