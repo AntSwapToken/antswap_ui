@@ -115,7 +115,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
   const blocksUntilStart = Math.max(startBlock - block, 0)
   const blocksRemaining = Math.max(endBlock - block, 0)
   const isOldSyrup = stakingTokenName === QuoteToken.SYRUP
-  const lpTokenImage = ImageName.QUICK
+  const lpTokenImage = ImageName.DAI
   const rewardTokenImage = QuoteToken.ANT
   const accountHasStakedBalance = stakedBalance?.toNumber() > 0
   const needsApproval = !accountHasStakedBalance && !allowance.toNumber() && !isBnbPool
@@ -244,7 +244,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
             <span role="img" aria-label={stakingTokenName}>
             <div style={{ flex: 1 }}>
               {TranslateString(384, 'Your Stake')}:
-              <Image src={`/images/tokens/${lpTokenImage}.png`} width={20} height={20} alt="QUICK" />{' '}
+              <Image src={`/images/tokens/${lpTokenImage}.png`} width={20} height={20} alt="DAI" />{' '}
               
             </div>
             

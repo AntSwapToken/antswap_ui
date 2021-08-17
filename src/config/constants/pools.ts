@@ -42,7 +42,8 @@ const pools: PoolConfig[] = [
   //   tokenDecimals: 18,
   // },
 
-  /* {
+   /* 
+   {
     sousId: 1,
     tokenName: 'WETH',
     stakingTokenName: QuoteToken.WETH,
@@ -83,7 +84,7 @@ const pools: PoolConfig[] = [
  
 */
 
- /* {
+  {
     sousId: 1,
     tokenName: 'DAI',
     stakingTokenName: QuoteToken.DAI,
@@ -102,7 +103,9 @@ const pools: PoolConfig[] = [
     tokenDecimals: 18,
   }
 
-  */
+ 
+
+  /*
 
   {
     sousId: 1,
@@ -122,6 +125,8 @@ const pools: PoolConfig[] = [
     isFinished: false,
     tokenDecimals: 18,
   }
+
+  */
   
 ]
 
