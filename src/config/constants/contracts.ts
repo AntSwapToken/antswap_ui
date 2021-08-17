@@ -100,4 +100,9 @@ export default {
     97: '',
     137: '0x831753dd7087cac61ab5644b308642cc1c33dc13' // QUICK
   },
+  mrbalv3: {
+    56: '',
+    97: '',
+    137: '0xc38EdAB117BE5CDaF1ba90A34F5F07e3c2BAf430' // MRBALV3
+  },
 }

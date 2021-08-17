@@ -374,6 +374,49 @@ const farms: FarmConfig[] = [
    quoteTokenAdresses: contracts.busd,
  },
 
+ // Pool 26 - MRBALV3-USDC
+// ----------------------------------------------------------
+{
+  pid: 26,
+  risk: 3,
+  lpSymbol: 'MRBALV3-USDC',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0xf7d0b63733e57d42c04445b6ab85baa903534b13', // MRBALV3 - USDC
+  },
+  tokenSymbol: 'MRBALV3',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0xc38EdAB117BE5CDaF1ba90A34F5F07e3c2BAf430', // MRBALV3
+  },
+  quoteTokenSymbol: QuoteToken.USDC,
+  quoteTokenAdresses: contracts.usdc,
+},
+
+// Pool 27 - ANT-MRBALV3
+// ----------------------------------------------------------
+{
+  pid: 27,
+  risk: 3,
+  lpSymbol: 'ANT-MRBALV3',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0x1ed96fe36a9c57634135980e5251335c10d305d9', // ANT-MRBALV3
+  },
+  tokenSymbol: 'ANT',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0xc38EdAB117BE5CDaF1ba90A34F5F07e3c2BAf430', // MRBALV3
+  },
+  quoteTokenSymbol: QuoteToken.MRBALV3,
+  quoteTokenAdresses: contracts.mrbalv3,
+},
+
+
 
  // Pool 12 - LAD
 // ----------------------------------------------------------
