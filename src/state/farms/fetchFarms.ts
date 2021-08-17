@@ -134,6 +134,7 @@ const fetchFarms = async () => {
                || farmConfig.quoteTokenSymbol === QuoteToken.ICE 
                || farmConfig.tokenSymbol === QuoteToken.DINO 
                || farmConfig.quoteTokenSymbol === QuoteToken.TITAN 
+               || farmConfig.quoteTokenSymbol === QuoteToken.MRBALV3 
             )   
             && farmConfig.quoteTokenSymbol === QuoteToken.BUSD 
             )
