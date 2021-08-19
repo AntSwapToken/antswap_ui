@@ -136,14 +136,18 @@ const fetchFarms = async () => {
                || farmConfig.quoteTokenSymbol === QuoteToken.TITAN 
                || farmConfig.quoteTokenSymbol === QuoteToken.MRBALV3 
                || farmConfig.quoteTokenSymbol === QuoteToken.AUSD 
+               || farmConfig.quoteTokenSymbol === QuoteToken.AWETH 
             )   
-            && farmConfig.quoteTokenSymbol === QuoteToken.USDC 
+            && (farmConfig.quoteTokenSymbol === QuoteToken.USDC )
             )
           {
             tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(10).pow(12))
          }
          else if (farmConfig.tokenSymbol === QuoteToken.WBTC) {
           tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(10).pow(2))
+         }
+          else if (farmConfig.tokenSymbol === QuoteToken.AWETH) {
+          tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(10).pow(12))
          } 
         else {
           tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP))

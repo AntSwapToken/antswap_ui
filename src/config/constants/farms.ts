@@ -715,6 +715,28 @@ const farms: FarmConfig[] = [
   quoteTokenAdresses: contracts.ausd,
 },
 
+// Pool 30 - aWETH
+// ----------------------------------------------------------
+{
+  pid: 30,
+  isTokenOnly: true,
+  risk: 3,
+  lpSymbol: 'aWETH',
+  lpAddresses: {
+    97: '',
+    56: '0x1aa20bca17fc20070192f228bcdf0845a86b7c03',
+    137: '0x1aa20bca17fc20070192f228bcdf0845a86b7c03', // aWETH - WETH
+  },
+  tokenSymbol: 'aWETH',
+  tokenAddresses: {
+    97: '',
+    56: '0x50cf886925c780269941639862b510a3fa6e9a66',
+    137: '0x50cf886925c780269941639862b510a3fa6e9a66', // aWETH
+  },
+  quoteTokenSymbol: QuoteToken.AWETH,
+  quoteTokenAdresses: contracts.aweth,
+  tokenDecimals: 18,
+},
 
 
 

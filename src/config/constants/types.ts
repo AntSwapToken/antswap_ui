@@ -42,7 +42,8 @@ export enum QuoteToken {
   'DINO' = 'DINO',
   'DAI' = 'DAI',
   'MRBALV3' = 'MRBALV3',
-  'AUSD' = 'AUSD'
+  'AUSD' = 'AUSD',
+  'AWETH' = 'AWETH'
 
  }
 
@@ -69,7 +70,8 @@ export enum QuoteToken {
   'DINO' = 'dino',
   'DAI' = 'dai',
   'MRBALV3' = 'mrbalv3',
-  'AUSD' = 'ausd'
+  'AUSD' = 'ausd',
+  'AWETH' = 'aweth'
 
  }
 
