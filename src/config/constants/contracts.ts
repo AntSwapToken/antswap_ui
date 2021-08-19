@@ -105,4 +105,9 @@ export default {
     97: '',
     137: '0xc38EdAB117BE5CDaF1ba90A34F5F07e3c2BAf430' // MRBALV3
   },
+  ausd: {
+    56: '',
+    97: '',
+    137: '0x2256a8a8D912519740f240cDfEeBf06F9DB14485' // AUSD
+  },
 }

@@ -671,6 +671,50 @@ const farms: FarmConfig[] = [
 //  tokenDecimals: 18,
 // },
 
+// Pool 28 - aUSD
+// ----------------------------------------------------------
+{
+  pid: 28,
+  isTokenOnly: true,
+  risk: 3,
+  lpSymbol: 'aUSD',
+  lpAddresses: {
+    97: '',
+    56: '0xf2e35d286f4d6a443b3aac754e4325477f01fa81',
+    137: '0xf2e35d286f4d6a443b3aac754e4325477f01fa81', // aUSD - USDC
+  },
+  tokenSymbol: 'aUSD',
+  tokenAddresses: {
+    97: '',
+    56: '0x2256a8a8D912519740f240cDfEeBf06F9DB14485',
+    137: '0x2256a8a8D912519740f240cDfEeBf06F9DB14485', // aUSD
+  },
+  quoteTokenSymbol: QuoteToken.USDC,
+  quoteTokenAdresses: contracts.ausd,
+  tokenDecimals: 6,
+},
+
+// Pool 29 - ANT-aUSD
+// ----------------------------------------------------------
+{
+  pid: 29,
+  risk: 3,
+  lpSymbol: 'ANT-aUSD',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0x5ab25cb63ced4bfa2fd29601862d5d31eae461ee', // ANT-AUSD
+  },
+  tokenSymbol: 'ANT',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0x2256a8a8D912519740f240cDfEeBf06F9DB14485', // aUSD
+  },
+  quoteTokenSymbol: QuoteToken.AUSD,
+  quoteTokenAdresses: contracts.ausd,
+},
+
 
 
 

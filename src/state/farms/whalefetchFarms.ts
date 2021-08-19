@@ -72,7 +72,7 @@ const fetchFarms = async () => {
         lpTotalInQuoteToken = tokenAmount.times(tokenPriceVsQuote).div(new BigNumber(10).pow(18)).times(new BigNumber(1000000));
         if (farmConfig.lpSymbol === 'WBTC') {
         lpTotalInQuoteToken = tokenAmount.times(tokenPriceVsQuote).div(new BigNumber(10).pow(9)).times(new BigNumber(1000000));
-        } else if (farmConfig.lpSymbol === 'USDC' || farmConfig.lpSymbol === 'USDT') {
+        } else if (farmConfig.lpSymbol === 'USDC' || farmConfig.lpSymbol === 'USDT' || farmConfig.lpSymbol === 'AUSD') {
           lpTotalInQuoteToken = tokenAmount.times(tokenPriceVsQuote).div(new BigNumber(10).pow(18)).times(new BigNumber(1000000));
         }
       }else{

@@ -135,8 +135,9 @@ const fetchFarms = async () => {
                || farmConfig.tokenSymbol === QuoteToken.DINO 
                || farmConfig.quoteTokenSymbol === QuoteToken.TITAN 
                || farmConfig.quoteTokenSymbol === QuoteToken.MRBALV3 
+               || farmConfig.quoteTokenSymbol === QuoteToken.AUSD 
             )   
-            && farmConfig.quoteTokenSymbol === QuoteToken.BUSD 
+            && farmConfig.quoteTokenSymbol === QuoteToken.USDC 
             )
           {
             tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(10).pow(12))
