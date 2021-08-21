@@ -739,6 +739,114 @@ const farms: FarmConfig[] = [
 },
 
 
+// Pool 31 - aUSD-LAD
+// ----------------------------------------------------------
+{
+  pid: 31,
+  risk: 3,
+  lpSymbol: 'aUSD-LAD',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0x5331de28f815a0a6eaf272e4aa4bebf241829048', // aUSD-LAD
+  },
+  tokenSymbol: 'aUSD',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0x2256a8a8D912519740f240cDfEeBf06F9DB14485', // aUSD
+  },
+  quoteTokenSymbol: QuoteToken.LAD,
+  quoteTokenAdresses: contracts.lad,
+},
+
+// Pool 32 - aUSD-BONE
+// ----------------------------------------------------------
+{
+  pid: 32,
+  risk: 3,
+  lpSymbol: 'aUSD-BONE',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0x42aad2972fec7fae70acdca2cb24e4cb3585c628', // aUSD-BONE
+  },
+  tokenSymbol: 'aUSD',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0x2256a8a8D912519740f240cDfEeBf06F9DB14485', // aUSD
+  },
+  quoteTokenSymbol: QuoteToken.BONE,
+  quoteTokenAdresses: contracts.bone,
+},
+
+// Pool 33 - aUSD-ICE
+// ----------------------------------------------------------
+{
+  pid: 33,
+  risk: 3,
+  lpSymbol: 'aUSD-ICE',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0xe3a17b70fc24666a0bfef3916011b75a662bf1b9', // aUSD-ICE
+  },
+  tokenSymbol: 'aUSD',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0x2256a8a8D912519740f240cDfEeBf06F9DB14485', // aUSD
+  },
+  quoteTokenSymbol: QuoteToken.ICE,
+  quoteTokenAdresses: contracts.ice,
+},
+
+// Pool 34 - aUSD-DINO
+// ----------------------------------------------------------
+{
+  pid: 34,
+  risk: 3,
+  lpSymbol: 'aUSD-DINO',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0xb9f33a8f0f091b2bf7641ea122ec88064c1a97b0', // aUSD-DINO
+  },
+  tokenSymbol: 'aUSD',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0x2256a8a8D912519740f240cDfEeBf06F9DB14485', // aUSD
+  },
+  quoteTokenSymbol: QuoteToken.DINO,
+  quoteTokenAdresses: contracts.dino,
+},
+
+// Pool 35 - aUSD-TITAN
+// ----------------------------------------------------------
+{
+  pid: 35,
+  risk: 3,
+  lpSymbol: 'aUSD-TITAN',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0xb9f33a8f0f091b2bf7641ea122ec88064c1a97b0', // aUSD-TITAN
+  },
+  tokenSymbol: 'aUSD',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0x2256a8a8D912519740f240cDfEeBf06F9DB14485', // aUSD
+  },
+  quoteTokenSymbol: QuoteToken.TITAN,
+  quoteTokenAdresses: contracts.titan,
+},
+
+
+
+
 
 
   
