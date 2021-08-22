@@ -832,7 +832,7 @@ const farms: FarmConfig[] = [
   lpAddresses: {
     97: '',
     56: '',
-    137: '0xb9f33a8f0f091b2bf7641ea122ec88064c1a97b0', // aUSD-TITAN
+    137: '0xa4c1a9111704af012e1f41ab77b94d14d244854f', // aUSD-TITAN
   },
   tokenSymbol: 'aUSD',
   tokenAddresses: {
