@@ -844,6 +844,74 @@ const farms: FarmConfig[] = [
   quoteTokenAdresses: contracts.titan,
 },
 
+// Pool 36 - WMATIC-LAD
+// ----------------------------------------------------------
+{
+  pid: 36,
+  risk: 3,
+  lpSymbol: 'WMATIC-LAD',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0x3995fb93384a8907e949c072d41808cbaca4038f', // WMATIC-LAD
+  },
+  tokenSymbol: 'WMATIC',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0x8465d41d66ce05bde12fd3320f260e01aa4ced3f', // LAD
+  },
+  quoteTokenSymbol: QuoteToken.LAD,
+  quoteTokenAdresses: contracts.lad,
+},
+
+
+// Pool 37 - USDC-WETH
+// ----------------------------------------------------------
+{
+  pid: 37,
+  risk: 3,
+  lpSymbol: 'USDC-WETH',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0x853ee4b2a13f8a742d64c8f088be7ba2131f670d', // USDC-WETH
+  },
+  tokenSymbol: 'USDC',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619', // WETH
+  },
+  quoteTokenSymbol: QuoteToken.WETH,
+  quoteTokenAdresses: contracts.weth,
+},
+
+
+
+// Pool 38 - QUICK-LAD
+// ----------------------------------------------------------
+{
+  pid: 38,
+  risk: 3,
+  lpSymbol: 'QUICK-LAD',
+  lpAddresses: {
+    97: '',
+    56: '',
+    137: '0x809534fbeaa323c656e48572a211f8e5f411a300', // QUICK-LAD
+  },
+  tokenSymbol: 'aUSD',
+  tokenAddresses: {
+    97: '',
+    56: '',
+    137: '0x8465d41d66ce05bde12fd3320f260e01aa4ced3f', // LAD
+  },
+  quoteTokenSymbol: QuoteToken.LAD,
+  quoteTokenAdresses: contracts.lad,
+},
+
+
+
 
 
 

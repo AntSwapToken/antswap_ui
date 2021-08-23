@@ -72,6 +72,7 @@ export enum QuoteToken {
   'MRBALV3' = 'mrbalv3',
   'AUSD' = 'ausd',
   'AWETH' = 'aweth'
+  
 
  }
 

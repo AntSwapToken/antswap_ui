@@ -114,5 +114,10 @@ export default {
     56: '',
     97: '',
     137: '0x50cf886925c780269941639862b510a3fa6e9a66' // aWETH
+  },
+  weth: {
+    56: '',
+    97: '',
+    137: '0x7ceb23fd6bc0add59e62ac25578270cff1b9f619' // WETH
   }
 }
