@@ -87,9 +87,9 @@ const Farm: React.FC = () => {
             <li>-------------------------------------------------</li>
             <li><a href="https://polygonscan.com/address/0xF968B7BB58F424d5a3B6e0bBcd05b7F93f100AC9">Staking Contract Address</a></li>
             <li>Stake = DAI (0x8f3cf7ad23cd3cadbd9735aff958023239c6a063)</li>
-            <li>Boost = 5000x</li>
-            <li>Deposit Fee = 30%</li>
-            <li>Ants per block  = 0.025</li>
+            <li>Boost = 3000x</li>
+            <li>Deposit Fee = 20%</li>
+            <li>Ants per block  = 1.0</li>
             <li>-------------------------------------------------</li>
           </ul>
         </div>
