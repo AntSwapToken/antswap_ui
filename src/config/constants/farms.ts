@@ -900,7 +900,7 @@ const farms: FarmConfig[] = [
     56: '',
     137: '0x809534fbeaa323c656e48572a211f8e5f411a300', // QUICK-LAD
   },
-  tokenSymbol: 'aUSD',
+  tokenSymbol: 'QUICK',
   tokenAddresses: {
     97: '',
     56: '',
